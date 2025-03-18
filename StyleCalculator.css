@@ -8,7 +8,7 @@ body {
 }
 
 .calculadora {
-    background: rgba(100, 50, 50, 0.663);
+    background: rgba(25, 165, 111, 0.663);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -24,7 +24,7 @@ body {
     margin-bottom: 10px;
     border: 1px solid #ffffff;
     border-radius: 5px;
-    color: rgb(247, 247, 247);
+    color: rgb(255, 252, 252);
 }
 
 .botones {
