@@ -7,8 +7,8 @@ function agregarNumero(numero){
 function agregarOperador(){
     if( operacion !== "" && !/[\+\-\*\/]$/.test(operacion)){
     operacion += agregarOperador;
-    actualizarPantalla();
 }
+    actualizarPantalla();       
 }
 function calcularResultado(){
     try{
