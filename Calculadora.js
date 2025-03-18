@@ -3,19 +3,20 @@ let operacion = "";
 
 function agregarNumero(numero){
     operacion += numero;
+    actualizarPantalla(); 
 }
 
 function agregarOperador(){
     if( operacion !== "" && !/[\+\-\*\/]$/.test(operacion)){
     operacion += operador;
-}
-    actualizarPantalla();       
+    actualizarPantalla();   
+    }         
 }
 function calcularResultado(){
     try{
         operacion = eval(operacion).toString();
     } catch (error) {
-        operacion = "error"
+        operacion = "Error"
     }
     actualizarPantalla(); 
           
