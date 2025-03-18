@@ -4,9 +4,10 @@ let operacion = "";
 function agregarNumero(numero){
     operacion += numero;
 }
+
 function agregarOperador(){
     if( operacion !== "" && !/[\+\-\*\/]$/.test(operacion)){
-    operacion += agregarOperador;
+    operacion += operador;
 }
     actualizarPantalla();       
 }
