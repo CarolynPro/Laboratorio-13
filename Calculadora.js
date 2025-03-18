@@ -8,7 +8,7 @@ function agregarNumero(numero){
 
 function agregarOperador(){
     if( operacion !== "" && !/[\+\-\*\/]$/.test(operacion)){
-    operacion += operador;
+    operacion += agregarOperador;
     actualizarPantalla();   
     }         
 }
