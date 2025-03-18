@@ -6,9 +6,9 @@ function agregarNumero(numero){
     actualizarPantalla(); 
 }
 
-function agregarOperador(){
+function agregarOperador(operador){
     if( operacion !== "" && !/[\+\-\*\/]$/.test(operacion)){
-    operacion += agregarOperador;
+    operacion += operador;
     actualizarPantalla();   
     }         
 }
